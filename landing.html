@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            background-color: lightgoldenrodyellow;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+
+        header {
+            display: block;
+            font-size: 15px;
+            font-variant: small-caps;
+            padding: 19px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: -14px;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+
+        .showcase {
+            background-image: url('static/landingpage.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            margin: 5px;
+        }
+
+        .showcase .container h1,
+        p {
+            color: darkgray;
+        }
+
+        .showcase h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .features {
+            padding: 22px;
+        }
+
+        .feature {
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            text-align: center;
+        }
+
+        .sign {
+            margin: 5px;
+            background: lightgoldenrodyellow;
+            padding: 1px;
+            text-align: center;
+        }
+
+        .sign a {
+            color: white;
+            text-decoration: none;
+            font-size: 22px;
+            background: repeating-linear-gradient(45deg, black, transparent 100px);
+            border-radius: 18px;
+            display: inline-block;
+        }
+
+        footer {
+            padding: 14px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Landing Page</h1>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Create Your #Web Design</h1>
+            <p>Design and develop your own website with our easy-to-use tools.</p>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <h2>Responsive Design</h2>
+                <p>Our templates look great on any device, from mobile to desktop.</p>
+            </div>
+            <div class="feature">
+                <h2>Customizable</h2>
+                <p>Fully customizable designs to suit your needs.</p>
+            </div>
+            <div class="feature">
+                <h2>Easy to Use</h2>
+                <p>User-friendly interface that makes website building a breeze.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sign">
+        <h2>Get Started Today</h2>
+        <a href="#">Sign Up Now</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Utkarsh Web. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            background-color: antiquewhite;
+            color: black;
+        }
+
+        a {
+            color: tomato;
+            text-decoration: none;
+        }
+
+        header {
+            background-color: tomato;
+            color: white;
+            padding: 20px;
+            margin: 7px;
+            border-radius: 70px;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo {
+            flex-grow: 1;
+        }
+
+        header .logo h1 {
+            margin: 0;
+            font-size: 3.5rem;
+        }
+
+        header .tagline {
+            margin: 5px 0 0;
+            font-size: 1.2rem;
+            font-style: italic;
+            text-indent: 27px;
+        }
+
+        header .photo img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            margin-left: auto;
+        }
+
+        section {
+            background-color: lemonchiffon;
+            border-bottom-style: dashed;
+            padding: 0px;
+            margin: 5px;
+        }
+
+        #about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+
+
+        #about .bio {
+            border-top-style: dashed;
+            padding: 8px;
+            background-color: lemonchiffon;
+            text-align: center;
+            margin: 9px;
+        }
+
+        #about .workexp {
+            padding: 8px;
+            background-color: lemonchiffon;
+            text-align: center;
+            margin: 9px;
+        }
+
+        #skills {
+            background-color: lemonchiffon;
+            text-align: center;
+            margin: 5px;
+
+        }
+
+        #skills ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        #skills h2 {
+            margin: 9px;
+        }
+
+        #skills ul li {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 15px;
+            background-color: snow;
+            border-radius: 10px;
+        }
+
+        #projects h2 {
+            margin: 9px;
+            text-align: center;
+        }
+
+        #projects .img {
+            text-align: center;
+        }
+
+        #projects .project {
+            margin-bottom: 20px;
+        }
+
+        #projects .img img {
+            width: 347px;
+            height: 184px;
+            border-radius: 20px;
+        }
+
+        #projects h3 {
+            margin: 10px 0 5px;
+        }
+
+        #certificates h2 {
+            margin: 9px;
+            text-align: center;
+        }
+
+        #certificates .cer img {
+            width: 304px;
+            height: 222px;
+            border-radius: 20px;
+
+        }
+
+        #certificates .cer {
+            text-align: center
+        }
+
+        #resume {
+            text-align: center;
+        }
+
+
+        #resume p {
+            text-align: center;
+        }
+
+        #contact {
+            text-align: center;
+        }
+
+        #contact p {
+            text-align: center;
+        }
+
+        #resume h2 {
+            margin: 9px;
+        }
+
+        #contact h2 {
+            margin: 9px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Utkarsh Sharma</h1>
+                <p class="tagline">Front-End Developer & Python Programmer</p>
+            </div>
+            <div class="photo">
+                <img src="static/portfolio.png" alt="Profile photo">
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="bio">
+            <h2>About Me</h2>
+            <p>Hello! I'm a Front-End Developer and Python Programmer who loves building user-friendly websites and
+                applications. I enjoy working with HTML, CSS, and JavaScript to create clean, responsive designs. My
+                skills in Python help me add powerful features to my projects, automate tasks, and handle data
+                efficiently. I’m passionate about making digital experiences that look great and work smoothly.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a></li>
+            <li><a href="https://www.python.org/" target="_blank">Python</a></li>
+            <li><a href="https://www.djangoproject.com/" target="_blank">Django</a></li>
+            <li><a href="https://www.sqlite.org/" target="_blank">Sqlite</a></li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <div class="workexp">
+            <h2>Work Experience</h2>
+            <p><b>Computer application </b>-- <b> "Reliable systems"</b>(Jun'24 - Jul'24) 2months Ranchi,india
+            <p>
+                Experienced in programming and maintaining computer applications.
+                Proficient in troubleshooting technical issues for optimal performance.
+                Skilled in collaborating with team members to meet project goals.
+                Committed to ongoing professional development in computer
+                applications.</p>
+
+            </p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="workexp">
+            <h2>Educations</h2>
+            <p>
+            <ul type="none">
+                <li><b>
+                        Bachelor of Technology in
+                        Computer Science and
+                        Engineering
+                        (CSE)</b>
+                    "Dec'21 - present"
+                    <i>Sarala Birla University</i>
+                    Ranchi, Jharkhand
+                    Grade 71.7% till semester 6
+                </li><br>
+                <li><b>Higher Secondary
+                        Education</b> --
+                    (Science Stream)
+                    "Mar'20 - Jul'21"
+                    <i>Tender Heart Senior
+                        Secondary School</i>
+                    Ranchi, Jharkhand
+                    Grade 90%
+                </li><br>
+                <li><b>Secondary Education</b>
+                    "Mar'18 - May'19"
+                    <i>Tender Heart Senior
+                        Secondary School</i>
+                    Ranchi, Jharkhand
+                    Grade 83.4%
+                </li>
+            </ul>
+            </p>
+
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Project</h2>
+        <div class="img">
+            <img src="static/dashboard.png" alt="Project 1">
+            <img src="static/crossworld.png" alt="Project 2">
+            <img src="static/jumpinggame.png" alt="Project 3">
+        </div>
+        <div class="project">
+            <h3>Project Title "GAMEZONE"</h3>
+            <p>Web based Tic Tac Toe game and Pygame jumping game (Gamezone).<br>
+                Developed an interactive web-based gaming application using Flask, integrating a classic Tic Tac Toe
+                game and an engaging Pygame jumping game. The project showcases proficiency in web development, game
+                design, and integrating Python-based games with web technologies. HTML5, CSS, Javascript, Python,
+                Django, Sqlite.</p>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <div class="cer">
+            <img src="static/certificate1.png" alt="Certificate 1">
+            <img src="static/certificate2.png" alt="Certificate 2">
+            <img src="static/certificate3.png" alt="Certificate 3">
+            <img src="static/certificate4.png" alt="Certificate 4">
+            <img src="static/certificate5.png" alt="Certificate 5">
+            <img src="static/certificate6.png" alt="Certificate 6">
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume: <a href="static/Utkarsh Sharma-79491 (4).pdf" download>Click Here</a></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:utkarsh9136@gmail.com" target="_blank">utkarsh9136@gmail.com</a></p>
+        <p>Linkedin: <a href="https://www.linkedin.com/in/utkarsh~~sharma/" target="_blank">Linkedin</a></p>
+        <p>Github: <a href="https://github.com/UtkarshSharma62020/CODSOFT" target="_blank">Github</a></p>
+        <p>Phone: 9471386657, 6202055746</p>
+        <p>Go to my landing page: <a href="landing.html" target="_blank">Click Here</a></p>
+        <p>Go to my Calculator page: <a href="calculator.html" target="_blank">Click Here</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Utkarsh Sharma. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
